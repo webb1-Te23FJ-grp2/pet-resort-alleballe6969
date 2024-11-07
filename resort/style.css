@@ -1,0 +1,50 @@
+* {
+  background-color: #eee;
+}
+.wrapper {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  align-content: center;
+  
+ 
+
+
+}
+.header{
+    background-image: url("img/happiest-dog.webp");
+grid-row: 2;
+padding-bottom: 600px;
+object-fit: cover;
+border-radius: 20px;
+
+}
+img {
+  
+    object-fit: cover;
+  max-height: 600px;
+  max-width: 1200px;
+  border-radius: 20px;
+  grid-column: 1/12;
+}
+
+.menu1 {
+  display: flex;
+  justify-content: flex-start;
+  grid-column: 1/7;
+  margin-left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+font-size: 20px;
+
+}
+
+.menu2 {
+  grid-column: 8/12;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+
+}
+
+
