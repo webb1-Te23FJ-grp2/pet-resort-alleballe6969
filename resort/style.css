@@ -8,6 +8,10 @@ body {
   grid-template-rows: auto;
   align-content: center;
 }
+.featured {
+
+}
+
 .header {
   background-image: url("img/happiest-dog.webp");
   grid-row: 2;
