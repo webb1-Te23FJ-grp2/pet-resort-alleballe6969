@@ -1,28 +1,28 @@
-* {
+body {
   background-color: #eee;
 }
-.wrapper {
+.wrapper1 {
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
   align-content: center;
-  
- 
-
-
 }
-.header{
-    background-image: url("img/happiest-dog.webp");
-grid-row: 2;
-padding-bottom: 600px;
-object-fit: cover;
-border-radius: 20px;
-
+.header {
+  background-image: url("img/happiest-dog.webp");
+  grid-row: 2;
+  /* padding-bottom: 600px; */
+  object-fit: cover;
+  border-radius: 20px;
+  height: 600px;
+  display: flex;
+  flex-direction: column-reverse;
+  object-fit: cover;
+  max-width: 1200px;
+  
 }
 img {
-  
-    object-fit: cover;
+  object-fit: cover;
   max-height: 600px;
   max-width: 1200px;
   border-radius: 20px;
@@ -35,8 +35,7 @@ img {
   grid-column: 1/7;
   margin-left: 30px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-font-size: 20px;
-
+  font-size: 20px;
 }
 
 .menu2 {
@@ -44,7 +43,9 @@ font-size: 20px;
   display: flex;
   justify-content: flex-end;
   justify-content: space-between;
-
 }
-
-
+.img-text{
+  color: #eee;
+  padding-top: 200px;
+  margin: 20px; 
+}
